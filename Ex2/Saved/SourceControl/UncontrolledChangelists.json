@@ -1,0 +1,26 @@
+{
+	"version": 1,
+	"changelists": [
+		{
+			"guid": "00000000000000000000000000000000",
+			"description": "Default Uncontrolled Changelist",
+			"files": [
+				"C:/BootCamp Files/Ex2/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset",
+				"C:/BootCamp Files/Ex2/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/4/LP/DUG7UALDQGNS5Z4D4CC3Z7.uasset",
+				"C:/BootCamp Files/Ex2/Content/BluePrints/BP_Timer.uasset",
+				"C:/BootCamp Files/Ex2/Content/BluePrints/HudWidget.uasset",
+				"C:/BootCamp Files/Ex2/Content/BluePrints/HUD.uasset",
+				"C:/BootCamp Files/Ex2/Content/ThirdPerson/Blueprints/BP_ThirdPersonGameMode.uasset",
+				"C:/BootCamp Files/Ex2/Content/BluePrints/BP_HUD.uasset",
+				"C:/BootCamp Files/Ex2/Content/BluePrints/BP_SwitchBox.uasset",
+				"C:/BootCamp Files/Ex2/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/A/F5/YAPRBSQ409PRFOQC0F0WN3.uasset",
+				"C:/BootCamp Files/Ex2/Content/BluePrints/BP_Spawner.uasset",
+				"C:/BootCamp Files/Ex2/Content/BluePrints/BP_Ball.uasset",
+				"C:/BootCamp Files/Ex2/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/2/TB/IQB0IBNBUE6WY8873PLQOG.uasset",
+				"C:/BootCamp Files/Ex2/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/C/JL/VRBEM46DWM26BUT45M4I6U.uasset",
+				"C:/BootCamp Files/Ex2/Content/BluePrints/CounterWidget.uasset",
+				"C:/BootCamp Files/Ex2/Content/BluePrints/BP_CountBox.uasset"
+			]
+		}
+	]
+}

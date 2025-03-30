@@ -1,0 +1,34 @@
+{
+	"version": 1,
+	"changelists": [
+		{
+			"guid": "00000000000000000000000000000000",
+			"description": "Default Uncontrolled Changelist",
+			"files": [
+				"C:/BootCamp Files/HelloUnreal/Content/NewMap.umap",
+				"C:/BootCamp Files/HelloUnreal/Content/StarterContent/Architecture/Floor_400x400.uasset",
+				"C:/BootCamp Files/HelloUnreal/Content/TestMap.umap",
+				"C:/BootCamp Files/HelloUnreal/Content/Fab/Halloween_witch_stylized_3d_game-ready_character/Broom_skeletal_mesh.uasset",
+				"C:/BootCamp Files/HelloUnreal/Content/Fab/Halloween_witch_stylized_3d_game-ready_character/Broom_skeletal_mesh_PhysicsAsset.uasset",
+				"C:/BootCamp Files/HelloUnreal/Content/Fab/Halloween_witch_stylized_3d_game-ready_character/Broom_skeletal_mesh_Skeleton.uasset",
+				"C:/BootCamp Files/HelloUnreal/Content/Fab/Halloween_witch_stylized_3d_game-ready_character/hidden.uasset",
+				"C:/BootCamp Files/HelloUnreal/Content/Fab/Halloween_witch_stylized_3d_game-ready_character/M_Broom.uasset",
+				"C:/BootCamp Files/HelloUnreal/Content/Fab/Halloween_witch_stylized_3d_game-ready_character/standardSurface2.uasset",
+				"C:/BootCamp Files/HelloUnreal/Content/Fab/Halloween_witch_stylized_3d_game-ready_character/Witch_skeletal_mesh.uasset",
+				"C:/BootCamp Files/HelloUnreal/Content/Fab/Halloween_witch_stylized_3d_game-ready_character/Witch_skeletal_mesh_Anim.uasset",
+				"C:/BootCamp Files/HelloUnreal/Content/Fab/Halloween_witch_stylized_3d_game-ready_character/Witch_skeletal_mesh_PhysicsAsset.uasset",
+				"C:/BootCamp Files/HelloUnreal/Content/Fab/Halloween_witch_stylized_3d_game-ready_character/Witch_skeletal_mesh_Skeleton.uasset",
+				"C:/BootCamp Files/HelloUnreal/Content/Fab/Megascans/3D/Thai_Beach_Rocks_Pack_uglldgifa/Medium/T_uglldgifa_2K_N.uasset",
+				"C:/BootCamp Files/HelloUnreal/Content/Fab/Megascans/3D/Thai_Beach_Rocks_Pack_uglldgifa/Medium/T_uglldgifa_2K_ORM.uasset",
+				"C:/BootCamp Files/HelloUnreal/Content/Fab/Megascans/3D/Thai_Beach_Rocks_Pack_uglldgifa/Medium/T_uglldgifa_2K_B.uasset",
+				"C:/BootCamp Files/HelloUnreal/Content/Fab/Megascans/3D/Thai_Beach_Rocks_Pack_uglldgifa/Medium/MI_uglldgifa.uasset",
+				"C:/Program Files/Epic Games/UE_5.5/Engine/Plugins/Fab/Content/Materials/Standard/M_MS_Base.uasset",
+				"C:/BootCamp Files/HelloUnreal/Content/Fab/Megascans/3D/Thai_Beach_Rocks_Pack_uglldgifa/Medium/uglldgifa_LOD0_TIER2_000.uasset",
+				"C:/BootCamp Files/HelloUnreal/Content/Fab/Megascans/3D/Thai_Beach_Rocks_Pack_uglldgifa/Medium/uglldgifa_LOD0_TIER2_001.uasset",
+				"C:/BootCamp Files/HelloUnreal/Content/Fab/Megascans/3D/Thai_Beach_Rocks_Pack_uglldgifa/Medium/uglldgifa_LOD0_TIER2_002.uasset",
+				"C:/BootCamp Files/HelloUnreal/Content/Fab/Megascans/3D/Thai_Beach_Rocks_Pack_uglldgifa/Medium/uglldgifa_LOD0_TIER2_004.uasset",
+				"C:/BootCamp Files/HelloUnreal/Content/Fab/Megascans/3D/Thai_Beach_Rocks_Pack_uglldgifa/Medium/uglldgifa_LOD0_TIER2_003.uasset"
+			]
+		}
+	]
+}

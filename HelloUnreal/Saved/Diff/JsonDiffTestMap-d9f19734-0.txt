@@ -1,0 +1,1734 @@
+{
+	"__RootObjects": [
+		{
+			"__UObject": {
+				"Name": "PackageMetaData",
+				"Class": "uobject:__native__/CoreUObject/MetaData",
+				"Flags": 2
+			},
+			"__StructuredData": {
+				"ObjectMetaDataMap": [],
+				"RootMetaDataMap": [
+					[
+						"PackageLocalizationNamespace",
+						"764D6BBD47E8990F8B3974AF1C019ECF"
+					]
+				]
+			}
+		},
+		{
+			"__UObject": {
+				"Name": "TestMap",
+				"Class": "uobject:__native__/Engine/World",
+				"Flags": 11
+			},
+			"__SerialData": [
+				false,
+				{
+					"__UObject": {
+						"Name": "PersistentLevel",
+						"Class": "uobject:__native__/Engine/Level",
+						"Flags": 8
+					},
+					"__SerialData": [
+						false,
+						"DgAAAA==",
+						{
+							"__UObject": {
+								"Name": "WorldSettings_1",
+								"Class": "uobject:__native__/Engine/WorldSettings",
+								"Flags": 8
+							},
+							"bEnableNavigationSystem": false,
+							"NavigationSystemConfig": {
+								"__UObject": {
+									"Name": "NavigationSystemConfig_0",
+									"Class": "uobject:__native__/Engine/NavigationSystemConfig",
+									"Flags": 0
+								},
+								"NavigationSystemClass": {
+									"AssetPath": {
+										"PackageName": "/Script/NavigationSystem",
+										"AssetName": "NavigationSystemV1"
+									}
+								}
+							},
+							"HierarchicalLODSetup": [
+								{
+									"TransitionScreenSize": 0.31379,
+									"OverrideDrawDistance": 10000,
+									"bUseOverrideDrawDistance": false,
+									"bAllowSpecificExclusion": false,
+									"bOnlyGenerateClustersForVolumes": false,
+									"bReusePreviousLevelClusters": false,
+									"SimplificationMethod": "Merge",
+									"ProxySetting": {
+										"ScreenSize": 300,
+										"VoxelSize": 3,
+										"MaterialSettings": {
+											"TextureSizingType": "TextureSizingType_UseSingleTextureSize",
+											"TextureSize": {
+												"X": 1024,
+												"Y": 1024
+											},
+											"TargetTexelDensityPerMeter": 5,
+											"MeshMaxScreenSizePercent": 0.5,
+											"MeshMinDrawDistance": 10000,
+											"GutterSpace": 4,
+											"MetallicConstant": 0,
+											"RoughnessConstant": 0.5,
+											"AnisotropyConstant": 0,
+											"SpecularConstant": 0.5,
+											"OpacityConstant": 0,
+											"OpacityMaskConstant": 0,
+											"AmbientOcclusionConstant": 1,
+											"MaterialMergeType": "MaterialMergeType_Simplygon",
+											"BlendMode": "BLEND_Opaque",
+											"bAllowTwoSidedMaterial": true,
+											"bNormalMap": true,
+											"bTangentMap": false,
+											"bMetallicMap": false,
+											"bRoughnessMap": false,
+											"bAnisotropyMap": false,
+											"bSpecularMap": false,
+											"bEmissiveMap": false,
+											"bOpacityMap": false,
+											"bOpacityMaskMap": false,
+											"bAmbientOcclusionMap": false,
+											"DiffuseTextureSize": {
+												"X": 1024,
+												"Y": 1024
+											},
+											"NormalTextureSize": {
+												"X": 1024,
+												"Y": 1024
+											},
+											"TangentTextureSize": {
+												"X": 1024,
+												"Y": 1024
+											},
+											"MetallicTextureSize": {
+												"X": 1024,
+												"Y": 1024
+											},
+											"RoughnessTextureSize": {
+												"X": 1024,
+												"Y": 1024
+											},
+											"AnisotropyTextureSize": {
+												"X": 1024,
+												"Y": 1024
+											},
+											"SpecularTextureSize": {
+												"X": 0,
+												"Y": 60913792
+											},
+											"EmissiveTextureSize": {
+												"X": 1024,
+												"Y": 1024
+											},
+											"OpacityTextureSize": {
+												"X": 1024,
+												"Y": 1024
+											},
+											"OpacityMaskTextureSize": {
+												"X": 1024,
+												"Y": 1024
+											},
+											"AmbientOcclusionTextureSize": {
+												"X": 1024,
+												"Y": 1024
+											}
+										},
+										"MergeDistance": 4,
+										"UnresolvedGeometryColor": {
+											"B": 0,
+											"G": 0,
+											"R": 0,
+											"A": 255
+										},
+										"MaxRayCastDist": 20,
+										"HardAngleThreshold": 80,
+										"LightMapResolution": 256,
+										"NormalCalculationMethod": "AngleWeighted",
+										"LandscapeCullingPrecision": "High",
+										"bCalculateCorrectLODModel": false,
+										"bOverrideVoxelSize": false,
+										"bOverrideTransferDistance": false,
+										"bUseHardAngleThreshold": false,
+										"bComputeLightMapResolution": false,
+										"bRecalculateNormals": true,
+										"bUseLandscapeCulling": false,
+										"bSupportRayTracing": true,
+										"bAllowDistanceField": false,
+										"bReuseMeshLightmapUVs": true,
+										"bGroupIdenticalMeshesForBaking": false,
+										"bCreateCollision": false,
+										"bAllowVertexColors": false,
+										"bGenerateLightmapUVs": false,
+										"NaniteSettings": {
+											"bEnabled": false,
+											"bPreserveArea": false,
+											"bExplicitTangents": false,
+											"bLerpUVs": true,
+											"PositionPrecision": -2147483648,
+											"NormalPrecision": -1,
+											"TangentPrecision": -1,
+											"TargetMinimumResidencyInKB": 0,
+											"KeepPercentTriangles": 1,
+											"TrimRelativeError": 0,
+											"FallbackTarget": "Auto",
+											"FallbackPercentTriangles": 1,
+											"FallbackRelativeError": 1,
+											"MaxEdgeLengthFactor": 0,
+											"DisplacementUVChannel": 0,
+											"DisplacementMaps": []
+										}
+									},
+									"MergeSetting": {
+										"TargetLightMapResolution": 256,
+										"OutputUVs": [
+											"OutputChannel",
+											"OutputChannel",
+											"OutputChannel",
+											"OutputChannel",
+											"OutputChannel",
+											"OutputChannel",
+											"OutputChannel",
+											"OutputChannel"
+										],
+										"MaterialSettings": {
+											"TextureSizingType": "TextureSizingType_UseSingleTextureSize",
+											"TextureSize": {
+												"X": 1024,
+												"Y": 1024
+											},
+											"TargetTexelDensityPerMeter": 5,
+											"MeshMaxScreenSizePercent": 0.5,
+											"MeshMinDrawDistance": 10000,
+											"GutterSpace": 4,
+											"MetallicConstant": 0,
+											"RoughnessConstant": 0.5,
+											"AnisotropyConstant": 0,
+											"SpecularConstant": 0.5,
+											"OpacityConstant": 0,
+											"OpacityMaskConstant": 0,
+											"AmbientOcclusionConstant": 1,
+											"MaterialMergeType": "MaterialMergeType_Default",
+											"BlendMode": "BLEND_Opaque",
+											"bAllowTwoSidedMaterial": true,
+											"bNormalMap": true,
+											"bTangentMap": false,
+											"bMetallicMap": false,
+											"bRoughnessMap": false,
+											"bAnisotropyMap": false,
+											"bSpecularMap": false,
+											"bEmissiveMap": false,
+											"bOpacityMap": false,
+											"bOpacityMaskMap": false,
+											"bAmbientOcclusionMap": false,
+											"DiffuseTextureSize": {
+												"X": 1024,
+												"Y": 1024
+											},
+											"NormalTextureSize": {
+												"X": 1024,
+												"Y": 1024
+											},
+											"TangentTextureSize": {
+												"X": 1024,
+												"Y": 1024
+											},
+											"MetallicTextureSize": {
+												"X": 1024,
+												"Y": 1024
+											},
+											"RoughnessTextureSize": {
+												"X": 1024,
+												"Y": 1024
+											},
+											"AnisotropyTextureSize": {
+												"X": 1024,
+												"Y": 1024
+											},
+											"SpecularTextureSize": {
+												"X": 6346880,
+												"Y": 0
+											},
+											"EmissiveTextureSize": {
+												"X": 1024,
+												"Y": 1024
+											},
+											"OpacityTextureSize": {
+												"X": 1024,
+												"Y": 1024
+											},
+											"OpacityMaskTextureSize": {
+												"X": 1024,
+												"Y": 1024
+											},
+											"AmbientOcclusionTextureSize": {
+												"X": 1024,
+												"Y": 1024
+											}
+										},
+										"GutterSize": 2,
+										"LODSelectionType": "CalculateLOD",
+										"SpecificLOD": 0,
+										"bGenerateLightMapUV": true,
+										"bComputedLightMapResolution": false,
+										"bPivotPointAtZero": false,
+										"bMergePhysicsData": false,
+										"bMergeMeshSockets": false,
+										"bMergeMaterials": true,
+										"bBakeVertexDataToMesh": false,
+										"bUseVertexDataForBakingMaterial": true,
+										"bUseTextureBinning": false,
+										"bReuseMeshLightmapUVs": true,
+										"bMergeEquivalentMaterials": true,
+										"bUseLandscapeCulling": false,
+										"bIncludeImposters": true,
+										"bSupportRayTracing": true,
+										"bAllowDistanceField": false,
+										"NaniteSettings": {
+											"bEnabled": false,
+											"bPreserveArea": false,
+											"bExplicitTangents": false,
+											"bLerpUVs": true,
+											"PositionPrecision": -2147483648,
+											"NormalPrecision": -1,
+											"TangentPrecision": -1,
+											"TargetMinimumResidencyInKB": 0,
+											"KeepPercentTriangles": 1,
+											"TrimRelativeError": 0,
+											"FallbackTarget": "Auto",
+											"FallbackPercentTriangles": 1,
+											"FallbackRelativeError": 1,
+											"MaxEdgeLengthFactor": 0,
+											"DisplacementUVChannel": 0,
+											"DisplacementMaps": []
+										}
+									},
+									"ApproximateSettings": {
+										"OutputType": "MeshAndMaterials",
+										"ApproximationAccuracy": 1,
+										"ClampVoxelDimension": 1024,
+										"bAttemptAutoThickening": true,
+										"TargetMinThicknessMultiplier": 1.5,
+										"bIgnoreTinyParts": true,
+										"TinyPartSizeMultiplier": 0.05,
+										"BaseCapping": "NoBaseCapping",
+										"WindingThreshold": 0.5,
+										"bFillGaps": true,
+										"GapDistance": 0.1,
+										"OcclusionMethod": "VisibilityBasedFiltering",
+										"bOccludeFromBottom": true,
+										"SimplifyMethod": "GeometricTolerance",
+										"TargetTriCount": 2000,
+										"TrianglesPerM": 2,
+										"GeometricDeviation": 0.1,
+										"GroundClipping": "NoGroundClipping",
+										"GroundClippingZHeight": 0,
+										"bEstimateHardNormals": true,
+										"HardNormalAngle": 60,
+										"UVGenerationMethod": "PreferXAtlas",
+										"InitialPatchCount": 250,
+										"CurvatureAlignment": 1,
+										"MergingThreshold": 1.5,
+										"MaxAngleDeviation": 45,
+										"bGenerateNaniteEnabledMesh": false,
+										"NaniteFallbackTarget": "Auto",
+										"NaniteFallbackPercentTriangles": 1,
+										"NaniteFallbackRelativeError": 1,
+										"bSupportRayTracing": true,
+										"bAllowDistanceField": true,
+										"MultiSamplingAA": 0,
+										"RenderCaptureResolution": 2048,
+										"MaterialSettings": {
+											"TextureSizingType": "TextureSizingType_UseSingleTextureSize",
+											"TextureSize": {
+												"X": 1024,
+												"Y": 1024
+											},
+											"TargetTexelDensityPerMeter": 5,
+											"MeshMaxScreenSizePercent": 0.5,
+											"MeshMinDrawDistance": 10000,
+											"GutterSpace": 4,
+											"MetallicConstant": 0,
+											"RoughnessConstant": 0.5,
+											"AnisotropyConstant": 0,
+											"SpecularConstant": 0.5,
+											"OpacityConstant": 1,
+											"OpacityMaskConstant": 1,
+											"AmbientOcclusionConstant": 1,
+											"MaterialMergeType": "MaterialMergeType_Default",
+											"BlendMode": "BLEND_Opaque",
+											"bAllowTwoSidedMaterial": true,
+											"bNormalMap": true,
+											"bTangentMap": false,
+											"bMetallicMap": false,
+											"bRoughnessMap": false,
+											"bAnisotropyMap": false,
+											"bSpecularMap": false,
+											"bEmissiveMap": false,
+											"bOpacityMap": false,
+											"bOpacityMaskMap": false,
+											"bAmbientOcclusionMap": false,
+											"DiffuseTextureSize": {
+												"X": 1024,
+												"Y": 1024
+											},
+											"NormalTextureSize": {
+												"X": 1024,
+												"Y": 1024
+											},
+											"TangentTextureSize": {
+												"X": 1024,
+												"Y": 1024
+											},
+											"MetallicTextureSize": {
+												"X": 1024,
+												"Y": 1024
+											},
+											"RoughnessTextureSize": {
+												"X": 1024,
+												"Y": 1024
+											},
+											"AnisotropyTextureSize": {
+												"X": 1024,
+												"Y": 1024
+											},
+											"SpecularTextureSize": {
+												"X": 1024,
+												"Y": 1024
+											},
+											"EmissiveTextureSize": {
+												"X": 1024,
+												"Y": 1024
+											},
+											"OpacityTextureSize": {
+												"X": 1024,
+												"Y": 1024
+											},
+											"OpacityMaskTextureSize": {
+												"X": 1024,
+												"Y": 1024
+											},
+											"AmbientOcclusionTextureSize": {
+												"X": 1024,
+												"Y": 1024
+											}
+										},
+										"CaptureFieldOfView": 30,
+										"NearPlaneDist": 1,
+										"bUseRenderLODMeshes": false,
+										"bEnableSimplifyPrePass": true,
+										"bEnableParallelBaking": true,
+										"bPrintDebugMessages": false,
+										"bEmitFullDebugMesh": false
+									},
+									"DesiredBoundRadius": 2000,
+									"DesiredFillingPercentage": 50,
+									"MinNumberOfActorsToBuild": 2
+								}
+							],
+							"BookmarkArray": [
+								"uobject:None",
+								{
+									"__UObject": {
+										"Name": "BookMark_0",
+										"Class": "uobject:__native__/Engine/BookMark",
+										"Flags": 8
+									},
+									"Location": {
+										"X": -1215.3810301736328,
+										"Y": 18.714797595791865,
+										"Z": 285.16895085572213
+									},
+									"Rotation": {
+										"Pitch": -3.642046794295311,
+										"Yaw": 0.23553435504436493,
+										"Roll": 8.5377369032357819e-06
+									}
+								},
+								"uobject:None",
+								"uobject:None",
+								"uobject:None",
+								"uobject:None",
+								"uobject:None",
+								"uobject:None",
+								"uobject:None",
+								"uobject:None"
+							],
+							"ActorGuid": {
+								"A": -1935912096,
+								"B": 1295216889,
+								"C": -540961113,
+								"D": 33268896
+							},
+							"ActorLabel": "WorldSettings1"
+						},
+						{
+							"__UObject": {
+								"Name": "Brush_1",
+								"Class": "uobject:__native__/Engine/Brush",
+								"Flags": 8
+							},
+							"bNotForClientOrServer": true,
+							"Brush": "uobject:__file__/TestMap/PersistentLevel/Brush",
+							"BrushComponent": {
+								"__UObject": {
+									"Name": "BrushComponent0",
+									"Class": "uobject:__native__/Engine/BrushComponent",
+									"Flags": 262152
+								},
+								"__SerialData": [
+									false,
+									"AAAAAA=="
+								],
+								"Brush": "uobject:__file__/TestMap/PersistentLevel/Brush",
+								"bSelectable": false,
+								"RelativeLocation": {
+									"X": -90,
+									"Y": 110,
+									"Z": 20
+								}
+							},
+							"BrushBuilder": {
+								"__UObject": {
+									"Name": "CubeBuilder_2",
+									"Class": "uobject:__native__/UnrealEd/CubeBuilder",
+									"Flags": 0
+								},
+								"Vertices": [
+									{
+										"X": -1000,
+										"Y": -1000,
+										"Z": -100
+									},
+									{
+										"X": -1000,
+										"Y": -1000,
+										"Z": 100
+									},
+									{
+										"X": -1000,
+										"Y": 1000,
+										"Z": -100
+									},
+									{
+										"X": -1000,
+										"Y": 1000,
+										"Z": 100
+									},
+									{
+										"X": 1000,
+										"Y": -1000,
+										"Z": -100
+									},
+									{
+										"X": 1000,
+										"Y": -1000,
+										"Z": 100
+									},
+									{
+										"X": 1000,
+										"Y": 1000,
+										"Z": -100
+									},
+									{
+										"X": 1000,
+										"Y": 1000,
+										"Z": 100
+									}
+								],
+								"Polys": [
+									{
+										"VertexIndices": [
+											0,
+											1,
+											3,
+											2 ],
+										"Direction": 1,
+										"ItemName": "None",
+										"PolyFlags": 0
+									},
+									{
+										"VertexIndices": [
+											2,
+											3,
+											7,
+											6 ],
+										"Direction": 1,
+										"ItemName": "None",
+										"PolyFlags": 0
+									},
+									{
+										"VertexIndices": [
+											6,
+											7,
+											5,
+											4 ],
+										"Direction": 1,
+										"ItemName": "None",
+										"PolyFlags": 0
+									},
+									{
+										"VertexIndices": [
+											4,
+											5,
+											1,
+											0 ],
+										"Direction": 1,
+										"ItemName": "None",
+										"PolyFlags": 0
+									},
+									{
+										"VertexIndices": [
+											3,
+											1,
+											5,
+											7 ],
+										"Direction": 1,
+										"ItemName": "None",
+										"PolyFlags": 0
+									},
+									{
+										"VertexIndices": [
+											0,
+											2,
+											6,
+											4 ],
+										"Direction": 1,
+										"ItemName": "None",
+										"PolyFlags": 0
+									}
+								],
+								"Layer": "Cube"
+							},
+							"bHidden": false,
+							"bActorEnableCollision": false,
+							"RootComponent": "uobject:__file__/TestMap/PersistentLevel/Brush_1/BrushComponent0",
+							"Layers": [
+								"Cube"
+							],
+							"ActorGuid": {
+								"A": -213481929,
+								"B": 1111533127,
+								"C": -702609017,
+								"D": -1568757122
+							},
+							"ActorLabel": "Brush1"
+						},
+						{
+							"__UObject": {
+								"Name": "DirectionalLight_0",
+								"Class": "uobject:__native__/Engine/DirectionalLight",
+								"Flags": 8
+							},
+							"ArrowComponent": {
+								"__UObject": {
+									"Name": "ArrowComponent0",
+									"Class": "uobject:__native__/Engine/ArrowComponent",
+									"Flags": 262152
+								},
+								"__SerialData": [
+									false,
+									"AAAAAA=="
+								],
+								"ArrowColor": {
+									"G": 255,
+									"R": 255
+								},
+								"AttachParent": "uobject:__file__/TestMap/PersistentLevel/DirectionalLight_0/LightComponent0"
+							},
+							"DirectionalLightComponent": {
+								"__UObject": {
+									"Name": "LightComponent0",
+									"Class": "uobject:__native__/Engine/DirectionalLightComponent",
+									"Flags": 262152
+								},
+								"__SerialData": [
+									false,
+									"AAAAAA=="
+								],
+								"bEnableLightShaftOcclusion": true,
+								"DynamicShadowDistanceMovableLight": 20000,
+								"DistanceFieldShadowDistance": 30000,
+								"LightSourceAngle": 0.7357,
+								"bUseTemperature": true,
+								"LightFunctionScale": {
+									"X": 4235.4536129999997,
+									"Y": 4235.4536129999997,
+									"Z": 4235.4536129999997
+								},
+								"LightFunctionFadeDistance": 77466.2,
+								"DisabledBrightness": 0.696,
+								"bUseRayTracedDistanceFieldShadows": false,
+								"Intensity": 6,
+								"RelativeLocation": {
+									"Z": 400
+								},
+								"RelativeRotation": {
+									"Pitch": -49.517110354156053,
+									"Yaw": -10.308600787602971,
+									"Roll": 112.3606720000198
+								},
+								"RelativeScale3D": {
+									"X": 1,
+									"Y": 1.0000000149011612,
+									"Z": 1.0000000149011612
+								},
+								"Mobility": "Movable"
+							},
+							"LightComponent": "uobject:__file__/TestMap/PersistentLevel/DirectionalLight_0/LightComponent0",
+							"SpawnCollisionHandlingMethod": "AlwaysSpawn",
+							"RootComponent": "uobject:__file__/TestMap/PersistentLevel/DirectionalLight_0/LightComponent0",
+							"ActorGuid": {
+								"A": -413901796,
+								"B": 1094532818,
+								"C": 2139658667,
+								"D": 1935848898
+							},
+							"ActorLabel": "DirectionalLight",
+							"FolderPath": "Lighting"
+						},
+						{
+							"__UObject": {
+								"Name": "SkyAtmosphere_0",
+								"Class": "uobject:__native__/Engine/SkyAtmosphere",
+								"Flags": 8
+							},
+							"SkyAtmosphereComponent": {
+								"__UObject": {
+									"Name": "SkyAtmosphereComponent",
+									"Class": "uobject:__native__/Engine/SkyAtmosphereComponent",
+									"Flags": 262152
+								},
+								"__SerialData": [
+									false,
+									"AAAAAA==",
+									"BmYpXA==",
+									"Oz9lRQ==",
+									"txp+9w==",
+									"wAqrDQ=="
+								],
+								"bStaticLightingBuiltGUID": {
+									"A": 1546216966,
+									"B": 1164263227,
+									"C": -142730569,
+									"D": 229313216
+								},
+								"RelativeLocation": {
+									"Z": 500
+								}
+							},
+							"ArrowComponent": {
+								"__UObject": {
+									"Name": "ArrowComponent",
+									"Class": "uobject:__native__/Engine/ArrowComponent",
+									"Flags": 262152
+								},
+								"__SerialData": [
+									false,
+									"AAAAAA=="
+								],
+								"AttachParent": "uobject:__file__/TestMap/PersistentLevel/SkyAtmosphere_0/SkyAtmosphereComponent"
+							},
+							"SpriteComponent": {
+								"__UObject": {
+									"Name": "Sprite",
+									"Class": "uobject:__native__/Engine/BillboardComponent",
+									"Flags": 262152
+								},
+								"__SerialData": [
+									false,
+									"AAAAAA=="
+								],
+								"AttachParent": "uobject:__file__/TestMap/PersistentLevel/SkyAtmosphere_0/SkyAtmosphereComponent"
+							},
+							"RootComponent": "uobject:__file__/TestMap/PersistentLevel/SkyAtmosphere_0/SkyAtmosphereComponent",
+							"ActorGuid": {
+								"A": 1862005079,
+								"B": 1078303245,
+								"C": 957990572,
+								"D": 1800957136
+							},
+							"ActorLabel": "SkyAtmosphere",
+							"FolderPath": "Lighting"
+						},
+						{
+							"__UObject": {
+								"Name": "SkyLight_0",
+								"Class": "uobject:__native__/Engine/SkyLight",
+								"Flags": 8
+							},
+							"LightComponent": {
+								"__UObject": {
+									"Name": "SkyLightComponent0",
+									"Class": "uobject:__native__/Engine/SkyLightComponent",
+									"Flags": 262152
+								},
+								"__SerialData": [
+									false,
+									"AAAAAA=="
+								],
+								"bRealTimeCapture": true,
+								"RelativeLocation": {
+									"Z": 600
+								},
+								"Mobility": "Movable"
+							},
+							"SpriteComponent": {
+								"__UObject": {
+									"Name": "Sprite",
+									"Class": "uobject:__native__/Engine/BillboardComponent",
+									"Flags": 262152
+								},
+								"__SerialData": [
+									false,
+									"AAAAAA=="
+								]
+							},
+							"RootComponent": "uobject:__file__/TestMap/PersistentLevel/SkyLight_0/SkyLightComponent0",
+							"ActorGuid": {
+								"A": 1958186866,
+								"B": 1328090842,
+								"C": -172148351,
+								"D": 1228766639
+							},
+							"ActorLabel": "SkyLight",
+							"FolderPath": "Lighting"
+						},
+						{
+							"__UObject": {
+								"Name": "ExponentialHeightFog_0",
+								"Class": "uobject:__native__/Engine/ExponentialHeightFog",
+								"Flags": 8
+							},
+							"Component": {
+								"__UObject": {
+									"Name": "HeightFogComponent0",
+									"Class": "uobject:__native__/Engine/ExponentialHeightFogComponent",
+									"Flags": 262152
+								},
+								"__SerialData": [
+									false,
+									"AAAAAA=="
+								],
+								"FogDensity": 0.0436,
+								"RelativeLocation": {
+									"X": -5600,
+									"Y": -50,
+									"Z": -6850
+								}
+							},
+							"SpriteComponent": {
+								"__UObject": {
+									"Name": "Sprite",
+									"Class": "uobject:__native__/Engine/BillboardComponent",
+									"Flags": 262152
+								},
+								"__SerialData": [
+									false,
+									"AAAAAA=="
+								],
+								"AttachParent": "uobject:__file__/TestMap/PersistentLevel/ExponentialHeightFog_0/HeightFogComponent0"
+							},
+							"RootComponent": "uobject:__file__/TestMap/PersistentLevel/ExponentialHeightFog_0/HeightFogComponent0",
+							"ActorGuid": {
+								"A": -1016411100,
+								"B": 1313509228,
+								"C": 896846487,
+								"D": -1858687864
+							},
+							"ActorLabel": "ExponentialHeightFog",
+							"FolderPath": "Lighting"
+						},
+						{
+							"__UObject": {
+								"Name": "VolumetricCloud_0",
+								"Class": "uobject:__native__/Engine/VolumetricCloud",
+								"Flags": 8
+							},
+							"VolumetricCloudComponent": {
+								"__UObject": {
+									"Name": "VolumetricCloudComponent",
+									"Class": "uobject:__native__/Engine/VolumetricCloudComponent",
+									"Flags": 262152
+								},
+								"__SerialData": [
+									false,
+									"AAAAAA=="
+								],
+								"RelativeLocation": {
+									"Z": 700
+								}
+							},
+							"SpriteComponent": {
+								"__UObject": {
+									"Name": "Sprite",
+									"Class": "uobject:__native__/Engine/BillboardComponent",
+									"Flags": 262152
+								},
+								"__SerialData": [
+									false,
+									"AAAAAA=="
+								],
+								"AttachParent": "uobject:__file__/TestMap/PersistentLevel/VolumetricCloud_0/VolumetricCloudComponent"
+							},
+							"RootComponent": "uobject:__file__/TestMap/PersistentLevel/VolumetricCloud_0/VolumetricCloudComponent",
+							"ActorGuid": {
+								"A": 1676595065,
+								"B": 1264495176,
+								"C": -2069116503,
+								"D": -1196605776
+							},
+							"ActorLabel": "VolumetricCloud",
+							"FolderPath": "Lighting"
+						},
+						{
+							"__UObject": {
+								"Name": "PlayerStart_0",
+								"Class": "uobject:__native__/Engine/PlayerStart",
+								"Flags": 8
+							},
+							"ArrowComponent": {
+								"__UObject": {
+									"Name": "Arrow",
+									"Class": "uobject:__native__/Engine/ArrowComponent",
+									"Flags": 262152
+								},
+								"__SerialData": [
+									false,
+									"AAAAAA=="
+								],
+								"AttachParent": "uobject:__file__/TestMap/PersistentLevel/PlayerStart_0/CollisionCapsule"
+							},
+							"CapsuleComponent": {
+								"__UObject": {
+									"Name": "CollisionCapsule",
+									"Class": "uobject:__native__/Engine/CapsuleComponent",
+									"Flags": 262152
+								},
+								"__SerialData": [
+									false,
+									"AAAAAA=="
+								],
+								"AreaClass": "uobject:__native__/NavigationSystem/NavArea_Obstacle",
+								"BodyInstance": {
+									"bInterpolateWhenSubStepping": false
+								},
+								"RelativeLocation": {
+									"Z": 92
+								}
+							},
+							"GoodSprite": {
+								"__UObject": {
+									"Name": "Sprite",
+									"Class": "uobject:__native__/Engine/BillboardComponent",
+									"Flags": 262152
+								},
+								"__SerialData": [
+									false,
+									"AAAAAA=="
+								],
+								"AttachParent": "uobject:__file__/TestMap/PersistentLevel/PlayerStart_0/CollisionCapsule"
+							},
+							"BadSprite": {
+								"__UObject": {
+									"Name": "Sprite2",
+									"Class": "uobject:__native__/Engine/BillboardComponent",
+									"Flags": 262152
+								},
+								"__SerialData": [
+									false,
+									"AAAAAA=="
+								],
+								"AttachParent": "uobject:__file__/TestMap/PersistentLevel/PlayerStart_0/CollisionCapsule"
+							},
+							"RootComponent": "uobject:__file__/TestMap/PersistentLevel/PlayerStart_0/CollisionCapsule",
+							"ActorGuid": {
+								"A": -642280291,
+								"B": 1302441687,
+								"C": -822046312,
+								"D": -59385475
+							},
+							"ActorLabel": "PlayerStart"
+						},
+						{
+							"__UObject": {
+								"Name": "StaticMeshActor_0",
+								"Class": "uobject:__native__/Engine/StaticMeshActor",
+								"Flags": 8
+							},
+							"StaticMeshComponent": {
+								"__UObject": {
+									"Name": "StaticMeshComponent0",
+									"Class": "uobject:__native__/Engine/StaticMeshComponent",
+									"Flags": 262152
+								},
+								"__SerialData": [
+									false,
+									"AAAAAA==",
+									"AAAAAA==",
+									false
+								],
+								"StaticMesh": "uobject:Engine/EngineSky/SM_SkySphere.uasset/SM_SkySphere",
+								"bUseDefaultCollision": false,
+								"StaticMeshDerivedDataKey": "STATICMESH_A8F10585DE67499EA913B652DC4A955E_228332BAE0224DD294E232B87D83948FQuadricMeshReduction_V2$2e0_37DD3B6C$2dD4A4$2d41C0$2dBCF6$2d32AE2029E647_CONSTRAINED_0000000000000080000000000000803F000000000000803F0000803FE24CA9997B8D383A984429295275520A00000000010000000100000000000000010000000100000000000000000000000100000000000000400000000000000001000000000000000000F03F000000000000F03F000000000000F03F0000803F00000000050000004E6F6E65000C00000030000000803F0000803F000000000000004100000000000034420303030000000000000000_LS0MNSzzzzzzzz0_SWLZ",
+								"OverrideMaterials": [
+									"uobject:Engine/EngineSky/M_SimpleSkyDome.uasset/M_SimpleSkyDome"
+								],
+								"bEnableAutoLODGeneration": false,
+								"BodyInstance": {
+									"CollisionEnabled": "NoCollision",
+									"bInterpolateWhenSubStepping": false,
+									"CollisionProfileName": "NoCollision",
+									"CollisionResponses": {
+										"ResponseArray": [
+											{
+												"Channel": "Visibility",
+												"Response": "ECR_Ignore"
+											},
+											{
+												"Channel": "Camera",
+												"Response": "ECR_Ignore"
+											}
+										]
+									}
+								},
+								"RelativeScale3D": {
+									"X": 400,
+									"Y": 400,
+									"Z": 400
+								}
+							},
+							"bRelevantForLevelBounds": false,
+							"bEnableAutoLODGeneration": false,
+							"RootComponent": "uobject:__file__/TestMap/PersistentLevel/StaticMeshActor_0/StaticMeshComponent0",
+							"ActorGuid": {
+								"A": 1769600346,
+								"B": 1164364306,
+								"C": -1264021317,
+								"D": -943825383
+							},
+							"ActorLabel": "SM_SkySphere",
+							"FolderPath": "Lighting",
+							"bIsSpatiallyLoaded": false
+						},
+						{
+							"__UObject": {
+								"Name": "Floor_0",
+								"Class": "uobject:__native__/Engine/StaticMeshActor",
+								"Flags": 8
+							},
+							"StaticMeshComponent": {
+								"__UObject": {
+									"Name": "StaticMeshComponent0",
+									"Class": "uobject:__native__/Engine/StaticMeshComponent",
+									"Flags": 262152
+								},
+								"__SerialData": [
+									false,
+									"AAAAAA==",
+									"AAAAAA==",
+									false
+								],
+								"StaticMesh": "uobject:Engine/MapTemplates/SM_Template_Map_Floor.uasset/SM_Template_Map_Floor",
+								"bUseDefaultCollision": false,
+								"StaticMeshDerivedDataKey": "STATICMESH_34081786561B425A9523C94540EA599D_359a029847e84730ba516769d0f19427Simplygon_5_5_2156_18f808c3cf724e5a994f57de5c83cc4b_680318F3495BDBDEBE4C11B39CD497CE000000000100000001000000000000000000803F0000803F00000000000000000000344203030300000000",
+								"MaterialStreamingRelativeBoxes": [
+									4294901760 ],
+								"OverrideMaterials": [
+									"uobject:Engine/OpenWorldTemplate/LandscapeMaterial/MI_ProcGrid.uasset/MI_ProcGrid"
+								],
+								"BodyInstance": {
+									"ObjectType": "ECC_WorldDynamic",
+									"CollisionProfileName": "BlockAllDynamic",
+									"MaxAngularVelocity": 3600,
+									"bAutoWeld": false
+								},
+								"RelativeLocation": {
+									"Z": -0.5
+								},
+								"RelativeScale3D": {
+									"X": 8,
+									"Y": 8,
+									"Z": 8
+								},
+								"Mobility": "Movable"
+							},
+							"RootComponent": "uobject:__file__/TestMap/PersistentLevel/Floor_0/StaticMeshComponent0",
+							"ActorGuid": {
+								"A": -1913128315,
+								"B": 1253875130,
+								"C": 535046846,
+								"D": 275783144
+							},
+							"ActorLabel": "Floor",
+							"bIsSpatiallyLoaded": false
+						},
+						{
+							"__UObject": {
+								"Name": "SkeletalMeshActor_1",
+								"Class": "uobject:__native__/Engine/SkeletalMeshActor",
+								"Flags": 8
+							},
+							"SkeletalMeshComponent": {
+								"__UObject": {
+									"Name": "SkeletalMeshComponent0",
+									"Class": "uobject:__native__/Engine/SkeletalMeshComponent",
+									"Flags": 262152
+								},
+								"__SerialData": [
+									false,
+									"AAAAAA=="
+								],
+								"SkeletalMesh": "uobject:HelloUnreal/Fab/Halloween_witch_stylized_3d_game-ready_character/Witch_skeletal_mesh.uasset/Witch_skeletal_mesh",
+								"SkinnedAsset": "uobject:HelloUnreal/Fab/Halloween_witch_stylized_3d_game-ready_character/Witch_skeletal_mesh.uasset/Witch_skeletal_mesh",
+								"RelativeLocation": {
+									"X": -440,
+									"Y": 30
+								},
+								"PrimaryComponentTick": {
+									"EndTickGroup": "TG_PostPhysics"
+								}
+							},
+							"RootComponent": "uobject:__file__/TestMap/PersistentLevel/SkeletalMeshActor_1/SkeletalMeshComponent0",
+							"ActorGuid": {
+								"A": -526557405,
+								"B": 1136476059,
+								"C": 207805103,
+								"D": -756169793
+							},
+							"ActorLabel": "Witch_skeletal_mesh"
+						},
+						{
+							"__UObject": {
+								"Name": "SkeletalMeshActor_3",
+								"Class": "uobject:__native__/Engine/SkeletalMeshActor",
+								"Flags": 8
+							},
+							"SkeletalMeshComponent": {
+								"__UObject": {
+									"Name": "SkeletalMeshComponent0",
+									"Class": "uobject:__native__/Engine/SkeletalMeshComponent",
+									"Flags": 262152
+								},
+								"__SerialData": [
+									false,
+									"AAAAAA=="
+								],
+								"SkeletalMesh": "uobject:HelloUnreal/Fab/Halloween_witch_stylized_3d_game-ready_character/Witch_skeletal_mesh.uasset/Witch_skeletal_mesh",
+								"SkinnedAsset": "uobject:HelloUnreal/Fab/Halloween_witch_stylized_3d_game-ready_character/Witch_skeletal_mesh.uasset/Witch_skeletal_mesh",
+								"RelativeLocation": {
+									"X": -630,
+									"Y": 20
+								},
+								"PrimaryComponentTick": {
+									"EndTickGroup": "TG_PostPhysics"
+								}
+							},
+							"RootComponent": "uobject:__file__/TestMap/PersistentLevel/SkeletalMeshActor_3/SkeletalMeshComponent0",
+							"ActorGuid": {
+								"A": 82185495,
+								"B": 1326605114,
+								"C": 777211780,
+								"D": 1477078171
+							},
+							"ActorLabel": "Witch_skeletal_mesh_Skeleton"
+						},
+						"uobject:None",
+						"uobject:None",
+						"BwAAAA==",
+						"dW5yZWFsAA==",
+						"AAAAAA==",
+						"EwAAAA==",
+						"L0VuZ2luZS9NYXBzL0VudHJ5AA==",
+						"AAAAAA==",
+						"AAAAAA==",
+						"YR4AAA==",
+						"AQAAAA==",
+						{
+							"__UObject": {
+								"Name": "Model_3",
+								"Class": "uobject:__native__/Engine/Model",
+								"Flags": 8
+							},
+							"__SerialData": [
+								false,
+								"AA==",
+								"AA==",
+								"AAAAAAAAAAA=",
+								"AAAAAAAAAAA=",
+								"AAAAAAAAAAA=",
+								"AAAAAAAAAAA=",
+								"AAAAAAAAAAA=",
+								"AAAAAAAAAAA=",
+								"AAAAAAAAAAA=",
+								"DAAAAA==",
+								"AAAAAA==",
+								"DAAAAA==",
+								"AAAAAA==",
+								"QAAAAA==",
+								"AAAAAA==",
+								"AAAAAA==",
+								"GAAAAA==",
+								"AAAAAA==",
+								"BAAAAA==",
+								"uobject:__file__/TestMap/PersistentLevel/Polys_0",
+								"BAAAAA==",
+								"AAAAAA==",
+								"BAAAAA==",
+								"AAAAAA==",
+								true,
+								false,
+								"AAAAAA==",
+								"AAAAAA==",
+								"0KcOnw==",
+								"KCPR+A==",
+								"Xz3AZQ==",
+								"ih+QUg==",
+								"AQAAAA==",
+								false,
+								false,
+								"AACAPw==",
+								false,
+								false,
+								"AAAAQQ==",
+								"AAAAAA==",
+								"AACAPw==",
+								"AACAPw=="
+							]
+						},
+						"AAAAAA==",
+						"uobject:None",
+						"uobject:None",
+						"uobject:None",
+						"uobject:None",
+						"AAAAAAAAAAA=",
+						"AAAAAAAAAAA=",
+						"AAAAAA==",
+						"AAAAAA==",
+						"AAAAAA==",
+						"AAAAAA==",
+						"AAAAAA==",
+						"AAAAAA==",
+						"AAAAAAAAAAA=",
+						"AAAAAAAAAAA=",
+						"AAAAAAAAAAA=",
+						"AAAAAAAAAAA=",
+						"AAAAAAAAAAA=",
+						"AAAAAAAAAAA=",
+						"AA==",
+						"AAAAAA==",
+						"AAAAAA==",
+						"AAAAAA==",
+						"AAAAAA=="
+					],
+					"Model": "uobject:__file__/TestMap/PersistentLevel/Model_3",
+					"TextureStreamingResourceGuids": [
+						{
+							"A": -1571385725,
+							"B": 1086784857,
+							"C": -1713770055,
+							"D": 437109275
+						},
+						{
+							"A": -582693731,
+							"B": 1233585279,
+							"C": -407260287,
+							"D": -453217979
+						},
+						{
+							"A": -1503818755,
+							"B": 1216877663,
+							"C": 9182139,
+							"D": 1505493220
+						},
+						{
+							"A": 1971178724,
+							"B": 1166509111,
+							"C": 1145465236,
+							"D": -451309032
+						}
+					],
+					"StreamingTextureGuids": [
+						{
+							"A": -705460315,
+							"B": 1196577963,
+							"C": -1524198010,
+							"D": 424946726
+						},
+						{
+							"A": 1794791461,
+							"B": 1234284259,
+							"C": -321045621,
+							"D": -717989752
+						},
+						{
+							"A": 393143326,
+							"B": 1180433078,
+							"C": -1363648581,
+							"D": -906187377
+						},
+						{
+							"A": -1667670597,
+							"B": 1161663848,
+							"C": 89023887,
+							"D": 1981746719
+						},
+						{
+							"A": -562064902,
+							"B": 1297600332,
+							"C": -1592407362,
+							"D": 720446046
+						}
+					],
+					"LevelBuildDataId": {
+						"A": -1981155058,
+						"B": 1283189353,
+						"C": -1577069149,
+						"D": -93134888
+					},
+					"WorldSettings": "uobject:__file__/TestMap/PersistentLevel/WorldSettings_1",
+					"__IndirectlyReferenced": [
+						{
+							"__UObject": {
+								"Name": "Brush",
+								"Class": "uobject:__native__/Engine/Model",
+								"Flags": 8
+							},
+							"__SerialData": [
+								false,
+								"AA==",
+								"AA==",
+								"AAAAAAAAAAA=",
+								"AAAAAAAAAAA=",
+								"AAAAAAAAAAA=",
+								"AAAAAABAj0A=",
+								"AAAAAABAj0A=",
+								"AAAAAAAAWUA=",
+								"22B1j/omlkA=",
+								"DAAAAA==",
+								"AAAAAA==",
+								"DAAAAA==",
+								"AAAAAA==",
+								"QAAAAA==",
+								"AAAAAA==",
+								"AAAAAA==",
+								"GAAAAA==",
+								"AAAAAA==",
+								"BAAAAA==",
+								"uobject:__file__/TestMap/PersistentLevel/Polys_6",
+								"BAAAAA==",
+								"AAAAAA==",
+								"BAAAAA==",
+								"AAAAAA==",
+								true,
+								true,
+								"CAAAAA==",
+								"AAAAAA==",
+								"KeaAsQ==",
+								"ItH2nA==",
+								"bH0Nsw==",
+								"YIuOXg==",
+								"AAAAAA=="
+							]
+						},
+						{
+							"__UObject": {
+								"Name": "Polys_0",
+								"Class": "uobject:__native__/Engine/Polys",
+								"Flags": 8
+							},
+							"__SerialData": [
+								false,
+								"AAAAAA=="
+							]
+						},
+						{
+							"__UObject": {
+								"Name": "Polys_6",
+								"Class": "uobject:__native__/Engine/Polys",
+								"Flags": 8
+							},
+							"__SerialData": [
+								false,
+								"BgAAAA==",
+								"AAB6xA==",
+								"AAB6xA==",
+								"AADIwg==",
+								"AACAvw==",
+								"AAAAAA==",
+								"AAAAAA==",
+								"AAAAAA==",
+								"AACAPw==",
+								"AAAAAA==",
+								"AAAAAA==",
+								"AAAAAA==",
+								"AACAvw==",
+								"BAAAAA==",
+								"AAB6xAAAesQAAMjCAAB6xAAAesQAAMhCAAB6xAAAekQAAMhCAAB6xAAAekQAAMjC",
+								"AAAAAA==",
+								"uobject:None",
+								"None",
+								"uobject:Engine/EngineMaterials/WorldGridMaterial.uasset/WorldGridMaterial",
+								"/////w==",
+								"/////w==",
+								"AAAAQg==",
+								false,
+								false,
+								"AACAPw==",
+								false,
+								false,
+								"AAAAQQ==",
+								"AAAAAA==",
+								"AACAPw==",
+								"AACAPw==",
+								"None",
+								"AAB6xA==",
+								"AAB6RA==",
+								"AADIwg==",
+								"AAAAAA==",
+								"AACAPw==",
+								"AAAAAA==",
+								"AACAPw==",
+								"AAAAgA==",
+								"AAAAAA==",
+								"AAAAAA==",
+								"AAAAAA==",
+								"AACAvw==",
+								"BAAAAA==",
+								"AAB6xAAAekQAAMjCAAB6xAAAekQAAMhCAAB6RAAAekQAAMhCAAB6RAAAekQAAMjC",
+								"AAAAAA==",
+								"uobject:None",
+								"None",
+								"uobject:Engine/EngineMaterials/WorldGridMaterial.uasset/WorldGridMaterial",
+								"/////w==",
+								"/////w==",
+								"AAAAQg==",
+								false,
+								false,
+								"AACAPw==",
+								false,
+								false,
+								"AAAAQQ==",
+								"AAAAAA==",
+								"AACAPw==",
+								"AACAPw==",
+								"None",
+								"AAB6RA==",
+								"AAB6RA==",
+								"AADIwg==",
+								"AACAPw==",
+								"AAAAAA==",
+								"AAAAAA==",
+								"AAAAAA==",
+								"AACAvw==",
+								"AAAAAA==",
+								"AAAAAA==",
+								"AAAAAA==",
+								"AACAvw==",
+								"BAAAAA==",
+								"AAB6RAAAekQAAMjCAAB6RAAAekQAAMhCAAB6RAAAesQAAMhCAAB6RAAAesQAAMjC",
+								"AAAAAA==",
+								"uobject:None",
+								"None",
+								"uobject:Engine/EngineMaterials/WorldGridMaterial.uasset/WorldGridMaterial",
+								"/////w==",
+								"/////w==",
+								"AAAAQg==",
+								false,
+								false,
+								"AACAPw==",
+								false,
+								false,
+								"AAAAQQ==",
+								"AAAAAA==",
+								"AACAPw==",
+								"AACAPw==",
+								"None",
+								"AAB6RA==",
+								"AAB6xA==",
+								"AADIwg==",
+								"AAAAAA==",
+								"AACAvw==",
+								"AAAAAA==",
+								"AACAvw==",
+								"AAAAgA==",
+								"AAAAgA==",
+								"AAAAAA==",
+								"AAAAAA==",
+								"AACAvw==",
+								"BAAAAA==",
+								"AAB6RAAAesQAAMjCAAB6RAAAesQAAMhCAAB6xAAAesQAAMhCAAB6xAAAesQAAMjC",
+								"AAAAAA==",
+								"uobject:None",
+								"None",
+								"uobject:Engine/EngineMaterials/WorldGridMaterial.uasset/WorldGridMaterial",
+								"/////w==",
+								"/////w==",
+								"AAAAQg==",
+								false,
+								false,
+								"AACAPw==",
+								false,
+								false,
+								"AAAAQQ==",
+								"AAAAAA==",
+								"AACAPw==",
+								"AACAPw==",
+								"None",
+								"AAB6xA==",
+								"AAB6RA==",
+								"AADIQg==",
+								"AAAAAA==",
+								"AAAAAA==",
+								"AACAPw==",
+								"AACAPw==",
+								"AAAAAA==",
+								"AAAAAA==",
+								"AAAAAA==",
+								"AACAPw==",
+								"AAAAAA==",
+								"BAAAAA==",
+								"AAB6xAAAekQAAMhCAAB6xAAAesQAAMhCAAB6RAAAesQAAMhCAAB6RAAAekQAAMhC",
+								"AAAAAA==",
+								"uobject:None",
+								"None",
+								"uobject:Engine/EngineMaterials/WorldGridMaterial.uasset/WorldGridMaterial",
+								"/////w==",
+								"/////w==",
+								"AAAAQg==",
+								false,
+								false,
+								"AACAPw==",
+								false,
+								false,
+								"AAAAQQ==",
+								"AAAAAA==",
+								"AACAPw==",
+								"AACAPw==",
+								"None",
+								"AAB6xA==",
+								"AAB6xA==",
+								"AADIwg==",
+								"AAAAAA==",
+								"AAAAAA==",
+								"AACAvw==",
+								"AACAPw==",
+								"AAAAAA==",
+								"AAAAAA==",
+								"AAAAAA==",
+								"AACAvw==",
+								"AAAAAA==",
+								"BAAAAA==",
+								"AAB6xAAAesQAAMjCAAB6xAAAekQAAMjCAAB6RAAAekQAAMjCAAB6RAAAesQAAMjC",
+								"AAAAAA==",
+								"uobject:None",
+								"None",
+								"uobject:Engine/EngineMaterials/WorldGridMaterial.uasset/WorldGridMaterial",
+								"/////w==",
+								"/////w==",
+								"AAAAQg==",
+								false,
+								false,
+								"AACAPw==",
+								false,
+								false,
+								"AAAAQQ==",
+								"AAAAAA==",
+								"AACAPw==",
+								"AACAPw==",
+								"None"
+							]
+						}
+					]
+				},
+				"AAAAAA==",
+				"AAAAAA=="
+			],
+			"ThumbnailInfo": {
+				"__UObject": {
+					"Name": "WorldThumbnailInfo_0",
+					"Class": "uobject:__native__/UnrealEd/WorldThumbnailInfo",
+					"Flags": 8
+				}
+			},
+			"EditorViews": [
+				{
+					"CamPosition": {
+						"X": -1215.3810301736328,
+						"Y": 18.714797595791865,
+						"Z": 285.16895085572213
+					},
+					"CamRotation": {
+						"Pitch": 0,
+						"Yaw": 0,
+						"Roll": 0
+					},
+					"CamOrthoZoom": 10000,
+					"CamUpdated": true
+				},
+				{
+					"CamPosition": {
+						"X": -1215.3810301736328,
+						"Y": 18.714797595791865,
+						"Z": 285.16895085572213
+					},
+					"CamRotation": {
+						"Pitch": 0,
+						"Yaw": 0,
+						"Roll": 0
+					},
+					"CamOrthoZoom": 10000,
+					"CamUpdated": true
+				},
+				{
+					"CamPosition": {
+						"X": -1215.3810301736328,
+						"Y": 18.714797595791865,
+						"Z": 285.16895085572213
+					},
+					"CamRotation": {
+						"Pitch": 0,
+						"Yaw": 0,
+						"Roll": 0
+					},
+					"CamOrthoZoom": 10000,
+					"CamUpdated": true
+				},
+				{
+					"CamPosition": {
+						"X": -775.15004646090892,
+						"Y": 565.76739350629032,
+						"Z": 377.48901679933738
+					},
+					"CamRotation": {
+						"Pitch": -14.24204695224762,
+						"Yaw": -67.564466655254364,
+						"Roll": 8.5377369032357819e-06
+					},
+					"CamOrthoZoom": 10000,
+					"CamUpdated": true
+				},
+				{
+					"CamPosition": {
+						"X": 0,
+						"Y": 0,
+						"Z": 0
+					},
+					"CamRotation": {
+						"Pitch": 0,
+						"Yaw": 0,
+						"Roll": 0
+					},
+					"CamOrthoZoom": 10000,
+					"CamUpdated": true
+				},
+				{
+					"CamPosition": {
+						"X": 0,
+						"Y": 0,
+						"Z": 0
+					},
+					"CamRotation": {
+						"Pitch": 0,
+						"Yaw": 0,
+						"Roll": 0
+					},
+					"CamOrthoZoom": 10000,
+					"CamUpdated": true
+				},
+				{
+					"CamPosition": {
+						"X": 0,
+						"Y": 0,
+						"Z": 0
+					},
+					"CamRotation": {
+						"Pitch": 0,
+						"Yaw": 0,
+						"Roll": 0
+					},
+					"CamOrthoZoom": 10000,
+					"CamUpdated": true
+				},
+				{
+					"CamPosition": {
+						"X": 0,
+						"Y": 0,
+						"Z": 0
+					},
+					"CamRotation": {
+						"Pitch": 0,
+						"Yaw": 0,
+						"Roll": 0
+					},
+					"CamOrthoZoom": 10000,
+					"CamUpdated": true
+				}
+			]
+		}
+	],
+	"__CustomVersions": [
+		{
+			"Key": "E4B068EDF49442E9A231DA0B2E46BB41",
+			"Version": 40
+		},
+		{
+			"Key": "697DD581E64F41ABAA4A51ECBEB7B628",
+			"Version": 119
+		},
+		{
+			"Key": "59DA5D5212324948B878597870B8E98B",
+			"Version": 8
+		},
+		{
+			"Key": "D89B5E4224BD4D468412ACA8DF641779",
+			"Version": 51
+		},
+		{
+			"Key": "601D1886AC644F84AA16D3DE0DEAC7D6",
+			"Version": 170
+		},
+		{
+			"Key": "9C54D522A8264FBE9421074661B482D0",
+			"Version": 44
+		},
+		{
+			"Key": "9DFFBCD6494F0158E22112823C92A888",
+			"Version": 10
+		},
+		{
+			"Key": "1ED048F42F2E4C6889D053A4F18F102D",
+			"Version": 1
+		},
+		{
+			"Key": "CFFC743F43B04480939114DF171D2073",
+			"Version": 37
+		},
+		{
+			"Key": "E70863686B234C5884391B7016265E91",
+			"Version": 15
+		},
+		{
+			"Key": "12F88B9F88754AFCA67CD90C383ABD29",
+			"Version": 49
+		},
+		{
+			"Key": "B6E31B1CD29F11EC857E9F856F9970E2",
+			"Version": 1
+		},
+		{
+			"Key": "5B4C06B724634AF8805BBF70CDF5D0DD",
+			"Version": 13
+		},
+		{
+			"Key": "29E575DDE0A346279D10D276232CDCEA",
+			"Version": 17
+		}
+	]
+}
